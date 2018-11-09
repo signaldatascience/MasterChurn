@@ -19,6 +19,27 @@ body {
 	color: slategrey;
 }
 
+.button-top, .button-bottom {
+	height: 100px;
+	color: white;
+	border: none;
+	opacity: 0.75;
+}
+
+.button-top {
+	font-size: 18pt;
+	width: 250px;
+}
+
+.button-bottom {
+	font-size: 13pt;
+	width: 200px;
+}
+
+.button-top:hover, .button-bottom:hover {
+	opacity: 1;
+}
+
 .input, .input-text {
 	font-size: 14pt;
 	color: olive;
@@ -33,7 +54,7 @@ body {
 
 .input {
 	background-color: greenyellow;
-	opacity: 0.8;
+	opacity: 0.75;
 }
 
 .input:hover {
